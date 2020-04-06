@@ -1,7 +1,6 @@
 {
   "extends": "airbnb-base",
   "rules": {
-    "no-console": "off",
     "no-return-await": "off",
     "max-len": "off",
     "no-multi-spaces": "off",
