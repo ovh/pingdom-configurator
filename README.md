@@ -97,6 +97,10 @@ The checks configurations are the same than inside the API: [checks](https://doc
 
 Note: You can create your config file in **YAML** or **JSON** format.
 
+## Related
+
+- [pingdom-to-graphite](https://github.com/ovh/pingdom-to-graphite) - A tool for copying metrics from Pingdom to Graphite
+
 ## License
 
 [BSD-3-Clause](LICENSE) © OVH SAS
