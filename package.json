@@ -1,8 +1,8 @@
 {
   "name": "pingdom-configurator",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": true,
-  "description": "pingdom-configurator",
+  "description": "Configure Pingdom as described in the config file.",
   "repository": {
     "type": "git",
     "url": "https://github.com/ovh/pingdom-configurator.git"
@@ -13,24 +13,24 @@
     "pingdom-configurator": "./bin/cli.js"
   },
   "scripts": {
-    "lint": "eslint lib bin --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint lib bin",
+    "test": "npm run lint"
   },
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "bluebird": "^3.7.2",
     "chalk": "^4.1.0",
     "cli-table3": "^0.6.0",
-    "commander": "^6.0.0",
+    "commander": "^6.1.0",
     "fs-extra": "^9.0.1",
-    "got": "^11.5.1",
+    "got": "^11.7.0",
     "js-yaml": "^3.14.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "winston": "^3.3.3"
   },
   "devDependencies": {
-    "eslint": "^7.5.0",
+    "eslint": "^7.11.0",
     "eslint-config-airbnb": "^18.2.0",
-    "eslint-plugin-import": "^2.22.0"
+    "eslint-plugin-import": "^2.22.1"
   }
 }
