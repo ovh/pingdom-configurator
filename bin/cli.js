@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const program = require('commander');
+const commander = require('commander');
 const Logger = require('../lib/utils/logger');
 const Config = require('../lib/utils/config');
 const PingdomConfigurator = require('../lib');
@@ -21,6 +21,8 @@ async function getConfig(configurationFile) {
 
 // Main function
 (async () => {
+  const program = new commander.Command();
+
   program
     .requiredOption('--config <config>', 'The location of your config file.')
     .option('--dry-run', 'Dry Run mode', false)
