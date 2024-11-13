@@ -19,18 +19,18 @@
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "bluebird": "^3.7.2",
-    "chalk": "^4.1.0",
-    "cli-table3": "^0.6.0",
-    "commander": "^6.1.0",
-    "fs-extra": "^9.0.1",
-    "got": "^11.8.5",
-    "js-yaml": "^3.14.0",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "got": "^11.8.6",
+    "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
-    "winston": "^3.3.3"
+    "winston": "^3.17.0"
   },
   "devDependencies": {
-    "eslint": "^7.11.0",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.31.0"
   }
 }
