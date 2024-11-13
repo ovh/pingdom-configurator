@@ -31,9 +31,9 @@ async function getConfig(configurationFile) {
     .parse(process.argv);
 
   try {
-    const config = await getConfig(program.config);
-    config.set('dryRun', program.dryRun);
-    config.set('soft', program.soft);
+    const config = await getConfig(program.opts().config);
+    config.set('dryRun', program.opts().dryRun);
+    config.set('soft', program.opts().soft);
     const pingdomConfigurator = new PingdomConfigurator(config);
     await pingdomConfigurator.run();
   } catch (e) {
